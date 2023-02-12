@@ -35,7 +35,7 @@ The Coulomb energy between two point charges is $q_1 q_2 / 4\pi\epsilon_0 r$,
 where $r$ is the separation distance, and $\epsilon_0$ is a physical constant
 (the vacuum permittivity). For a system with multiple charges, the total Coulomb
 energy is a sum of all such pair interactions. A frequent goal is to estimate
-bulk material properties using computers simulations at much smaller scales.
+bulk material properties using computer simulations at much smaller scales.
 Here, it is very effective to impose periodic boundary conditions on the finite
 size simulation volume. Doing so effectively creates infinitely many copies
 (image charges) of the charges present in the original, finite size system.
@@ -45,7 +45,7 @@ long-range ($1/r$) pair interactions. In the _Ewalder_ example above, the output
 salt.
 
 There are some mathematical subtleties to Ewald summation. First, the system
-must be net charge neutral, or the macroscopic Coulomb energy will diverge.
+must be net charge neutral, or the macroscopic Coulomb energy will diverge. 
 Second, if the original system has a nonzero net dipole moment (i.e., a
 polarization), then the infinite sum over periodic images becomes only
 conditionally convergent, and the result depends on the order of summation. This
